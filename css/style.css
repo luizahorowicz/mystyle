@@ -1,8 +1,7 @@
 /* change these */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
-
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -11,26 +10,26 @@
 
 /* change these */
 :root {
-  --bg-color: #9f1c19;
+  --bg-color: #ffff;
   --link-color: #65d1fb;
   --link-hover-color: #ff8500;
   --color-4: #05abeb;
-  --color-5: #ff241f;
+  --color-5: #B9BBB6;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font:  'Risque', sans-serif;
+  --secondary-font: 'Arvo', serif;
   --main-text-color: #222222;
 
   --white-space: 1rem;
   
   --bg-color: #000;
-  --link-color: #000;
-  --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
+  --link-color: #808588;
+  --link-hover-color: #660000;
+  --color-4: #787276;
+  --color-5: grey;
 
-  --primary-font: sans-serif;
-  --secondary-font: serif;
+  --primary-font: 'Risque';
+  --secondary-font: 'Arvo';
   --main-text-color: #000;
 
   --white-space: 1rem;
@@ -83,7 +82,7 @@ footer {
 
 .header-wrapper h3 {
   font-size: 1.2rem;
-  font-style: italic;
+  font-style: bold;
 }
 
 .header-wrapper h4 {
@@ -100,7 +99,7 @@ section {
 
 .section-heading {
   /*font-family: var(--primary-font);*/
-  font-style: italic;
+  font-style: bold;
   font-size: 1.3rem;
   color: #777;
   margin: .5rem 0;
@@ -180,7 +179,7 @@ button {
   background: var(--link-color);
   text-align: center;
   text-decoration: none;
-  font: bold 1.25em/1 "Open Sans", sans-serif;
+  font: bold 1.25em/1 "Arvo", sans-serif;
   letter-spacing: 1px;
   color: white;
   text-transform: uppercase;
